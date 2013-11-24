@@ -63,7 +63,11 @@
                 <div class="col-sm-3" id="leftCol">
 
                     <ul class="nav nav-stacked" id="sidebar">
-                        <li ng-repeat="menu in menus | filter: { issidemenu: true }"><a href="#{{ menu.path }}" >{{ menu.name }}</a></li>
+                        <li ng-repeat="menu in menus | filter: { issidemenu: true }"
+                            class="base-class"
+                            ng-class="{'active': isCurPath('{{ menu.path }}')}">
+                            <a href="#{{ menu.path }}" >{{ menu.name }}</a>
+                        </li>
                         <!-- class="list-group-item" ng-class="{'active': isCurPath('{{ menu.path }}')}" -->
                     </ul>
 

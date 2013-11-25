@@ -6,7 +6,6 @@ var armiksApp = angular.module('armiksApp', [
     'aboutControllers',
     'priceControllers',
     'contactsControllers',
-    'ventControllers',
     'boilersControllers'
 ]);
 
@@ -28,10 +27,6 @@ armiksApp.config(['$routeProvider',
             when('/contacts', {
                 templateUrl: 'scripts/modules/contacts/contacts.html',
                 controller: 'ContactsCtrl'
-            }).
-            when('/vent', {
-                templateUrl: 'scripts/modules/vent/vent.html',
-                controller: 'VentCtrl'
             }).
             when('/boilers', {
                 templateUrl: 'scripts/modules/boilers/boilers.html',

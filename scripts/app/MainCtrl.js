@@ -14,10 +14,8 @@ mainControllers.controller('MainCtrl', ['$scope','$location',
             {name: 'Теплотехническое оборудование', path: '/', issidemenu: true, istopmenu: true, level: 1},
             {name: 'Котельное оборудование', path: '/', issidemenu: true, istopmenu: true, level: 1},
             {name: 'Котлы паровые', path: '/boilers', issidemenu: true, istopmenu: true, level: 1},
-            {name: 'Вентиляторы и отопительное оборудование', path: '/vent', issidemenu: true, istopmenu: true, level: 1},
             {name: 'Координаты', path: '/contacts', issidemenu: true, istopmenu: true, level: 0}
         ];
-
 
         //-------------------------------------------------------------
         // sidebar

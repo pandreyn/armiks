@@ -1,4 +1,4 @@
 armiks
 ======
 
-first release
+site for http://armiks.ru for test php + angularjs

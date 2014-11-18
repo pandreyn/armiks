@@ -1,0 +1,11 @@
+<h1>{{ header }}</h1>
+<h3>Здесь Вы можете загрузить прайс-лист: </h3>
+<div class="row" ng-repeat="file in files">
+    <div class="col-lg-6">
+        {{ file.name }}
+        <img width="16" border="0" align="middle" hspace="3" height="16" alt="" ng-src="{{ file.pic }}">
+    </div>
+    <div class="col-lg-6">
+        <a href="{{ file.path }}">Скачать</a>
+    </div>
+</div>

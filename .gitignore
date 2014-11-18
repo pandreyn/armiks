@@ -1,0 +1,8 @@
+node_modules
+dist
+.tmp
+.sass-cache
+.idea
+app/bower_components
+app/styles/site.css
+app/scripts/modernizr-custom.js

@@ -1,0 +1,12 @@
+[
+{
+    "name": "прайс-лист в формате Microsoft Excell",
+    "pic": "images/static/xls_gif.png",
+    "path": "files/price_armiks2000.xls"
+},
+{
+    "name": "прайс-лист в архиве RAR ",
+    "pic": "images/static/rar_gif.png",
+    "path": "files/price_armiks2000.rar"
+}
+]

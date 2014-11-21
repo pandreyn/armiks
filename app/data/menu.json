@@ -1,9 +1,51 @@
 [
-    {"name": "О компании", "path": "/about", "issidemenu": "true", "istopmenu": "true", "level": 0},
-    {"name": "Прайс-лист", "path": "/price", "issidemenu": "true", "istopmenu": "true", "level": 0},
-    {"name": "Теплотехническое оборудование", "path": "/teplo", "issidemenu": "true", "istopmenu": "true", "level": 1},
-    {"name": "Котельное оборудование", "path": "/blrsequipment", "issidemenu": "true", "istopmenu": "true", "level": 1},
-    {"name": "Трубы экономайзерные", "path": "/economizers", "issidemenu": "true", "istopmenu": "true", "level": 1},
-    {"name": "Котлы паровые", "path": "/boilers", "issidemenu": "true", "istopmenu": "true", "level": 1},
-    {"name": "Координаты", "path": "/contacts", "issidemenu": "true", "istopmenu": "true", "level": 0}
+    {
+        "name": "О компании",
+        "path": "/about",
+        "issidemenu": "true",
+        "istopmenu": "true",
+        "level": 0
+    },
+    {
+        "name": "Прайс-лист",
+        "path": "/price",
+        "issidemenu": "true",
+        "istopmenu": "true",
+        "level": 0
+    },
+    {
+        "name": "Теплотехническое оборудование",
+        "path": "/teplo",
+        "issidemenu": "true",
+        "istopmenu": "true",
+        "level": 1
+    },
+    {
+        "name": "Котельное оборудование",
+        "path": "/blrsequipment",
+        "issidemenu": "true",
+        "istopmenu": "true",
+        "level": 1
+    },
+    {
+        "name": "Трубы экономайзерные",
+        "path": "/economizers",
+        "issidemenu": "true",
+        "istopmenu": "true",
+        "level": 1
+    },
+    {
+        "name": "Котлы паровые",
+        "path": "/boilers",
+        "issidemenu": "true",
+        "istopmenu": "true",
+        "level": 1
+    },
+    {
+        "name": "Координаты",
+        "path": "/contacts",
+        "issidemenu": "true",
+        "istopmenu": "true",
+        "level": 0
+    }
 ]

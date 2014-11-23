@@ -53,6 +53,6 @@ armiksApp.config(['$routeProvider',
                 }
             }).
             otherwise({
-                redirectTo: '/404'
+                redirectTo: '/'
             });
     }]);
